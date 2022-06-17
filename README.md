@@ -11,11 +11,11 @@ Some other projects that show my work are:
 
 ## Who Am I? 
 
-I grew up in South Florida :palm_tree::sun_with_face:
-then I graduated from NYU with a BFA in Film Production :city_sunset: :mortar_board::movie_camera:
-Post grad, I worked as a producer for film and podcasts :headphones::memo::watch::clapper:
-But during the pandemic, I had an idea for a custom fantasy baseball website :baseball:
-I explored what it would take to build the site and started taking online courses :computer:
+I grew up in South Florida :palm_tree::sun_with_face:  
+then I graduated from NYU with a BFA in Film Production :city_sunset: :mortar_board::movie_camera:  
+Post grad, I worked as a producer for film and podcasts :headphones::memo::watch::clapper:  
+But during the pandemic, I had an idea for a custom fantasy baseball website :baseball:  
+I explored what it would take to build the site and started taking online courses :computer:  
 What I discovered was that I had a real passion for coding :smiley: :bulb:
 
 
