@@ -3,7 +3,7 @@ A collection of Connor's coding projects to display his skills and abilities.
 
 ## Welcome! :Wave:
 
-Hello, my name is Connor McVay and I'm a full stack developer looking to gain experience and knowledge on new projects. Currently, I am working on a fantasy baseball site called *Otter Fantasy Baseball League*.
+Hello, my name is Connor McVay and I'm a full stack developer looking to gain experience and knowledge on new projects. Currently, I am working on a fantasy baseball site called **Otter Fantasy Baseball League**.
 
 Some other projects that show my work are:
 * mixed-messages (Codecademy)
