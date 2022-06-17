@@ -1,7 +1,7 @@
 # Connor McVay's Personal Portfolio
 A collection of Connor's coding projects to display his skills and abilities.
 
-## Welcome! :Wave:
+## Welcome! :wave:
 
 Hello, my name is Connor McVay and I'm a full stack developer looking to gain experience and knowledge on new projects. Currently, I am working on a fantasy baseball site called **Otter Fantasy Baseball League**.
 
