@@ -1,22 +1,42 @@
 # Connor McVay's Personal Portfolio
 A collection of Connor's coding projects to display his skills and abilities.
 
-## Welcome! :wave:
+## Table of Contents
+* Design
+* Wireframes
+* Built With
+* Creator
 
-Hello, my name is Connor McVay and I'm a full stack developer looking to gain experience and knowledge on new projects. Currently, I am working on a fantasy baseball site called **Otter Fantasy Baseball League**.
+## Design
 
-Some other projects that show my work are:
-* mixed-messages (Codecademy)
-* This Personal Portfolio
+### Fonts
 
-## Who Am I? 
+The heading font is .
 
-I grew up in South Florida :palm_tree::sun_with_face:  
-then I graduated from NYU with a BFA in Film Production :city_sunset: :mortar_board::movie_camera:  
-Post grad, I worked as a producer for film and podcasts :headphones::memo::watch::clapper:  
-But during the pandemic, I had an idea for a custom fantasy baseball website :baseball:  
-I explored what it would take to build the site and started taking online courses :computer:  
-I discovered that I have a real passion for coding :smiley: :bulb:
+The text font is .
 
+### Color Scheme
+
+* 
+* 
+* 
+* 
+* 
+* 
+
+### Wireframes
+
+Using Adobe XD, I came up with these simple wireframes for the portfolio. I wanted to keep the structure simple and clean to make it easily accessible especially for visitors who are quickly viewing the site.
+
+### Built With
+
+Coded using Visual Studio Code. 
+* HTML5
+* CSS3
+
+### Creator
+
+Hello, my name is Connor McVay and I'm a front end developer looking to gain experience and knowledge on new projects. 
+Here is my portfolio!
 
 
