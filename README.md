@@ -24,7 +24,7 @@ The text font is .
 * 
 * 
 
-![Color Scheme]('./src/images/AdobeColor-My Color Theme.jpeg')
+![ColorScheme][colors]
 
 ## Wireframes
 
@@ -41,4 +41,4 @@ Coded using Visual Studio Code.
 Hello, my name is Connor McVay and I'm a front end developer looking to gain experience and knowledge on new projects. 
 Here is my portfolio!
 
-
+[colors]: /src/images/AdobeColor-My%20Color%20Theme.jpeg "Color Scheme"
