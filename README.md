@@ -24,7 +24,7 @@ The text font is .
 * 
 * 
 
-![Color Scheme]('./src/images/AdobeColor-My Color Theme.jpeg');
+![Color Scheme]('./src/images/AdobeColor-My Color Theme.jpeg')
 
 ## Wireframes
 
