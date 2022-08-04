@@ -2,10 +2,10 @@
 A collection of Connor's coding projects to display his skills and abilities.
 
 ## Table of Contents
-* Design
-* Wireframes
-* Built With
-* Creator
+* [Design](https://github.com/cMcVay/Personal-Portfolio#design)
+* [Wireframes](https://github.com/cMcVay/Personal-Portfolio#wireframes)
+* [Built With](https://github.com/cMcVay/Personal-Portfolio#built-with)
+* [Creator](https://github.com/cMcVay/Personal-Portfolio#creator)
 
 ## Design
 
@@ -24,17 +24,17 @@ The text font is .
 * 
 * 
 
-### Wireframes
+## Wireframes
 
 Using Adobe XD, I came up with these simple wireframes for the portfolio. I wanted to keep the structure simple and clean to make it easily accessible especially for visitors who are quickly viewing the site.
 
-### Built With
+## Built With
 
 Coded using Visual Studio Code. 
 * HTML5
 * CSS3
 
-### Creator
+## Creator
 
 Hello, my name is Connor McVay and I'm a front end developer looking to gain experience and knowledge on new projects. 
 Here is my portfolio!
