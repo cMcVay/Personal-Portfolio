@@ -1,4 +1,4 @@
-# [Connor McVay's Personal Portfolio](https://cmcvay.github.io/Personal-Portfolio/)
+# [Connor McVay's Personal Portfolio](https://cmcvay.github.io/Personal-Portfolio/){:target="\_blank"}
 A collection of Connor's coding projects to display his skills and abilities.
 
 ## Table of Contents
