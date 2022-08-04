@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #1F4E57;
+    scroll-behavior: smooth;
 }
 
 #hp-title {
@@ -34,4 +35,12 @@ html, body {
 #hp-nav a {
     color: #4dc2d6;
     font-size: 45px;
+}
+
+header {
+    height: 1900px;
+}
+
+#About {
+    height: 1900px;
 }
