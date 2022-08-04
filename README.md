@@ -24,6 +24,8 @@ The text font is .
 * 
 * 
 
+![Color Scheme]('./src/images/AdobeColor-My Color Theme.jpeg');
+
 ## Wireframes
 
 Using Adobe XD, I came up with these simple wireframes for the portfolio. I wanted to keep the structure simple and clean to make it easily accessible especially for visitors who are quickly viewing the site.
