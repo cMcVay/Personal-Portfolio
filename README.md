@@ -29,6 +29,9 @@ The text font is .
 ## Wireframes
 
 Using Adobe XD, I came up with these simple wireframes for the portfolio. I wanted to keep the structure simple and clean to make it easily accessible especially for visitors who are quickly viewing the site.
+![WebDesktop][desktop]
+![MobileAboutSelected][mobile1]
+![MobileProjectsSelected][mobile2]
 
 ## Built With
 
@@ -42,3 +45,6 @@ Hello, my name is Connor McVay and I'm a front end developer looking to gain exp
 Here is my portfolio!
 
 [colors]: /src/images/AdobeColor-My%20Color%20Theme.jpeg "Color Scheme"
+[desktop]: /src/images/Web%201920%20%E2%80%93%201.png "Web Desktop"
+[mobile1]: /src/images/iPhone%2013%2C%2012%20Pro%20Max%20%E2%80%93%201.png "Mobile About Selected"
+[mobile2]: /src/images/iPhone%2013%2C%2012%20Pro%20Max%20%E2%80%93%202.png "Mobile Projects Selected"

@@ -1,54 +1,19 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #1F4E57;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh; 
     scroll-behavior: smooth;
 }
 
-#hp-title {
-    color: #4dc2d6;
-    margin: auto;
-    padding-top: 250px;
-}
-
-#hp-title h1, h2 {
-    text-align: center;
-}
-
-#hp-title h1 {
-    font-size: 150px;
-    margin-bottom: 30px;
-}
-
-#hp-title h2 {
-    font-size: 50px;
-}
-
-#hp-nav {
+section {
+    height: 100vh;
+    scroll-snap-align: start;
     display: flex;
-    width: 100%;
-    justify-content: space-around;
-    list-style: none;
-    margin-top: 305px;
-}
-
-#hp-nav a {
-    color: #4dc2d6;
-    font-size: 45px;
-}
-
-header {
-    height: 100vh;
-}
-
-#About {
-    height: 100vh;
-}
-
-#Projects {
-    height: 100vh;
-}
-
-#Contact {
-    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
