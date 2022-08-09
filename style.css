@@ -38,9 +38,17 @@ html, body {
 }
 
 header {
-    height: 1900px;
+    height: 100vh;
 }
 
 #About {
-    height: 1900px;
+    height: 100vh;
+}
+
+#Projects {
+    height: 100vh;
+}
+
+#Contact {
+    height: 100vh;
 }
