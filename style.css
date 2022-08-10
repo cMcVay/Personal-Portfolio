@@ -164,6 +164,8 @@ button {
     height: 50px;
     background-color: var(--base);
     color: var(--secondary);
+    font-family: 'Vollkorn', serif;
+    font-size: 24px;
 }
 
 
