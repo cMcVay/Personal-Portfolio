@@ -2,17 +2,20 @@
     --primary: rgb(141, 203, 214);
     --secondary: rgb(31, 78, 87);
     --accent: rgb(50, 124, 138);
+    --base: rgb(131, 154, 158);
 }
 
 html, body {
     margin: 0;
     padding: 0;
     background-color: var(--secondary);
+
 }
 
 p {
     font-family: 'Vollkorn', serif;
     color: var(--secondary);
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -40,7 +43,9 @@ header {
 }
 
 #headerLine {
-    width: 1200px;
+    max-width: 1200px;
+    min-width: 350px;
+    width: 85%;
     padding: 0px;
     margin-top: 0px;
 }
@@ -59,13 +64,13 @@ header {
     flex-direction: row-reverse;
     border-radius: 15px;
     align-items: stretch;
-    height: 80vh;
+    height: 75vh;
     width: 45%;
 }
 
 .bio {
-    border: 1px solid black;
-    width: 60%;
+    width: 56%;
+    padding: 2%;
 }
 
 .profile {
@@ -78,6 +83,7 @@ header {
 
 #profilePhoto {
     padding: 10px;
+    max-width: 100%;
 }
 
 .socialLinks {
@@ -104,7 +110,9 @@ header {
 
 .project {
     width: 40%;
+    min-width: 400px;
     height: 30%;
+    min-height: 200px;
     border:2px solid rgb(141, 203, 214);
     display: flex;
     border-radius: 15px;
@@ -130,12 +138,14 @@ header {
 
 .projTitleBox {
     position: absolute;
-    top: 50%;
-    width: 100%;
+    top: 40%;
+    width: 70%;
+    left: 15%;
 }
 
 .projectTitle {
     text-align: center;
+    font-size: 24px;
 }
 
 .projectLink {
@@ -143,4 +153,80 @@ header {
     height: 100%;
 }
 
+#menu {
+    display: none;
+    justify-content: center;
+    width: 100%;
+}
 
+button {
+    width: 40%;
+    height: 50px;
+    background-color: var(--base);
+    color: var(--secondary);
+}
+
+
+#aboutButton {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+#projectsButton {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media only screen and (max-width: 1220px) {
+    #title {
+        font-size: 30px;
+    };
+}
+
+@media only screen and (max-width: 1220px) {
+    #subtitle {
+        font-size: 24px;
+    }
+    #Projects {
+        display: none;
+        width: 95%;
+        align-items: center;
+    }
+    #About {
+        width: 95%;
+    }
+    #menu {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .project {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #About {
+        flex-direction: column;
+    }
+    .profile {
+        width: 100%;
+    }
+    .bio {
+        width: 100%
+    }
+    #profilePhoto {
+        width: 150px;
+    }
+    p {
+        font-size: 12px;
+    }
+    #Projects {
+        flex-flow: column;
+    }
+    .project {
+        width: 100%;
+    }
+}

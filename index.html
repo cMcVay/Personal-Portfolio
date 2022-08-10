@@ -22,6 +22,8 @@
 
 <body>
     <div id="menu">
+        <button id="aboutButton" onclick="showAbout()" >About</button>
+        <button id="projectsButton" onclick="showProjects()">Projects</button>
     </div>
     <div class="container">
         <section id="About">
@@ -58,6 +60,63 @@
             </a>
         </section>
     </div>
+    <script>
+    function showProjects() {
+        var about = document.getElementById("About");
+        var project = document.getElementById("Projects");
+        var aboutButton = document.getElementById("aboutButton");
+        var projectsButton = document.getElementById("projectsButton");
+        if (about.style.display != "none") {
+          about.style.display = "none";
+          project.style.display = "flex";
+          aboutButton.style.backgroundColor = "var(--base)";
+          aboutButton.style.color = "var(--secondary)";
+          projectsButton.style.color = "var(--primary)";
+          projectsButton.style.backgroundColor = "var(--accent)";
+          console.log('click');
+        }
+        else {
+            console.log('still click');
+        }
+    }
+    function showAbout() {
+        var about = document.getElementById("About");
+        var project = document.getElementById("Projects");
+        var aboutButton = document.getElementById("aboutButton");
+        var projectsButton = document.getElementById("projectsButton");
+        if (project.style.display != "none") {
+          project.style.display = "none";
+          about.style.display = "flex";
+          console.log('click');
+          projectsButton.style.backgroundColor = "var(--base)";
+          projectsButton.style.color = "var(--secondary)";
+          aboutButton.style.color = "var(--primary)";
+          aboutButton.style.backgroundColor = "var(--accent)";
+        }
+        else {
+            console.log('still click');
+        }
+    }
+    const mediaQuery = window.matchMedia('(min-width: 1220px)')
+    function handleScreenChange(e) {
+        var about = document.getElementById("About");
+        var project = document.getElementById("Projects");
+        if (e.matches) {
+            project.style.display = "flex";
+            about.style.display = "flex";
+            console.log('wider');
+            projectsButton.style.backgroundColor = "var(--base)";
+            projectsButton.style.color = "var(--secondary)";
+            aboutButton.style.color = "var(--primary)";
+            aboutButton.style.backgroundColor = "var(--accent)";
+        } else {
+            console.log('shorter');
+            project.style.display = "none";
+        }
+    }
+    mediaQuery.addListener(handleScreenChange);
+    handleScreenChange(mediaQuery);
+    </script>
 </body>
 
 <footer>
