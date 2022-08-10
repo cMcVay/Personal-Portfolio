@@ -12,11 +12,135 @@ html, body {
 
 p {
     font-family: 'Vollkorn', serif;
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Vollkorn', serif;
     font-weight: 800;
     color: var(--primary);
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+#title {
+    font-size: 100px;
+}
+
+#subtitle {
+    font-size: 60px;
+}
+
+#headerLine {
+    width: 1200px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+#About {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 15px;
+    align-items: stretch;
+    height: 80vh;
+    width: 45%;
+}
+
+.bio {
+    border: 1px solid black;
+    width: 60%;
+}
+
+.profile {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+#profilePhoto {
+    padding: 10px;
+}
+
+.socialLinks {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 25px;
+    width: 50%;
+}
+
+.icon {
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#Projects {
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 40%;
+    height: 30%;
+    border:2px solid rgb(141, 203, 214);
+    display: flex;
+    border-radius: 15px;
+    position: relative;
+}
+
+.projImgBox {
+    width: 100%;
+}
+
+.projectImage {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 15px;
+    filter: brightness(35%);
+}
+
+.projectImage:hover {
+    filter: brightness(15%);
+    cursor: pointer;
+}
+
+.projTitleBox {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.projectTitle {
+    text-align: center;
+}
+
+.projectLink {
+    width: 100%;
+    height: 100%;
+}
+
+
