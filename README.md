@@ -11,18 +11,14 @@ A collection of Connor's coding projects to display his skills and abilities.
 
 ### Fonts
 
-The heading font is .
-
-The text font is .
+The font Vollkorn was found on Google Fonts.
 
 ### Color Scheme
 
-* 
-* 
-* 
-* 
-* 
-* 
+* /#8DCBD6 : Site headings, background for profile box
+* /#1F4E57 : Site Background, Text
+* /#327C8A : Menu Background, Social Icons
+* /#839A9E : Menu Active Background
 
 ![ColorScheme][colors]
 
@@ -38,6 +34,7 @@ Using Adobe XD, I came up with these simple wireframes for the portfolio. I want
 Coded using Visual Studio Code. 
 * HTML5
 * CSS3
+* JavaScript
 
 ## Creator
 
